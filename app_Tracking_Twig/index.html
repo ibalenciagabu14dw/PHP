@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>APP TRACKING</title>
+        <style type="text/css">
+            body{
+               text-align: center;
+               background: linear-gradient(135deg, rgba(131,196,236,1) 0%, rgba(105,191,242,1) 12%, rgba(58,182,253,1) 34%, rgba(6,151,224,1) 58%, rgba(131,196,236,1) 75%, rgba(131,196,236,1) 88%);
+            }
+            .mostrar{
+                background: linear-gradient(45deg, rgba(255,0,132,1) 0%, rgba(255,0,132,1) 100%);
+            }
+                
+        </style>
+    </head>
+    <body>
+        <table id="insertar">
+            <tr>
+
+                <td><form method='post' action='control.php/add'>
+                    <label for="nombre">NOMBRE:</label><input type="text" name="nombre"/><br>
+                    <label for="correo">CORREO:</label><input type="email" name="correo"/><br>
+                    <label for="longitud">LONGITUD:</label><input type="number" name="longitud" step="any" /><br>
+                    <label for="latitud">LATITUD:</label><input type="number" name="latitud" step="any" /><br>
+                    <label for="tiempo">TIEMPO:</label><input type="text" name="tiempo"/><br><br>
+                    <input type="submit" value="INSERTAR"/>
+                </form></td>
+            </tr>
+        </table>
+        <br>
+        <hr>
+        <br>
+        <table id="mostrar">
+            <tr>
+
+                <td><form method='post' action='control.php/view'>
+                    <label for="nombre">NOMBRE:</label><input type="text" name="nombre"/><br>
+                    <label for="correo">CORREO:</label><input type="text" name="correo"/><br><br>
+                    <input type="submit" value="MOSTRAR"/>
+                </form></td>
+            </tr>
+        </table>
+        
+    </body>
+</html>

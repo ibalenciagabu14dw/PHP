@@ -1,0 +1,5 @@
+- Migracion a Slim
+- Google Map, marcadores (http://www.funcion13.com/google-maps-marcadores/)
+- Correo
+- Estadistica
+- Cliente
